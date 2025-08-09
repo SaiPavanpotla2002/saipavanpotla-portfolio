@@ -1,0 +1,483 @@
+body {
+   background-image: linear-gradient(to top right, grey 40%, yellowgreen, whitesmoke);
+}
+
+* {
+    box-sizing: border-box;
+    color: black;
+    padding: 0;
+    margin: 0;
+
+}
+.p1{
+    display: flex;
+    justify-content: space-between;
+    background-color: grey;
+    padding: 1rem 5rem;
+    position: fixed;
+    min-width: 100vw;
+
+}
+
+.mumu{
+    color: white;
+    font-size: 1.5rem;
+}
+.chennai {
+    display: flex;
+    gap: 1rem;
+}
+.chennai a{
+    color: white;
+    text-decoration: none;
+}
+.hyd {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10rem;
+    padding-right: 15rem;
+    padding-top: 9rem;
+    height: 100vh;
+}
+.pavan {
+    border: 10px double;
+    border-radius: 50%;
+}
+.pavan:hover{
+    transform: scale(1.2);
+    transition-duration 2s; 
+}
+.c {
+      border: 1px solid;
+     padding: 0.2rem;
+    border-radius: 30%;
+   margin-left: 1.5rem;
+   font-size: 2rem;
+   margin-top: 1.5rem;
+   margin-bottom: 2.3rem;
+   text-decoration: none; 
+
+}
+#zz1 {
+    color: blue;
+ }
+.d {
+    margin-left: 1rem;
+    padding: 0.5rem;
+    border-radius: 25%;
+    border: 1.5px double;
+    text-decoration: none;
+    color: green;
+    background-image: linear-gradient(to right, rgb(179, 255, 0), orange);
+}
+.d:hover{
+    box-shadow: 2px 3px 1px blueviolet;
+    transform: scale(1.5);
+   background-color: blue;
+   color: aliceblue;
+}
+.c:hover:hover {
+     box-shadow: 2px 3px 1px blueviolet;
+    transform: scale(1.5);
+   background-color: blue;
+   color: aliceblue;
+}
+ .mumbai {
+    display: flex;
+    justify-content: space-between;
+     padding-left: 8rem;
+    padding-right: 7rem;
+    padding-top: 11rem;
+     margin-bottom: 13rem;
+     margin-top: 5rem;
+     height: 100vh;
+ }
+ .Sai {
+     border: 8px double;
+    border-radius: 30%;
+ }
+ .Sai:hover {
+    transform: scale(0.8);
+ }
+ .a2 {
+     margin-left: 1rem;
+    padding: 0.5rem;
+    border-radius: 30%;
+    border: 1px dotted;
+    text-decoration: none;
+    background-image: linear-gradient(to top, lightblue, yellowgreen );
+ }
+ .a2:hover {
+   transform: scale(0.8);
+ }
+ .I {
+    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 3rem;
+ }
+ .babuu {
+     margin-bottom: 1.5rem;
+ }
+ .pune {
+display: flex;
+justify-content: space-evenly;
+margin-bottom: 15rem;
+ }
+ .N {
+    border: 3px solid;
+    text-align: center;
+    width: 15rem;
+    padding: 1rem;
+    padding-top: 2rem;
+    border-radius: 20%;
+ }
+ .N:hover {
+    transform: scale(1.2);
+    transition-duration: 3s;
+ }
+ .M:hover {
+    transform: scale(1.2);
+    transition-duration: 3s;
+ }
+ .O:hover {
+    transform: scale(1.2);
+    transition-duration: 3s;
+ }
+ #zz2 {
+    color: blue;
+ }
+ .king {
+    padding-top: 7rem;
+ }
+ .M {
+     border: 3px solid;
+    text-align: center;
+    width: 15rem;
+     padding: 1rem;
+      padding-top: 2rem;
+      border-radius: 20%;
+ }
+ .O {
+     border: 3px solid;
+    text-align: center;
+    width: 15rem;
+     padding: 1rem;
+      padding-top: 2rem;
+     border-radius: 20%;
+ }
+ .kane {
+    font-size: 2rem;
+    color: blue;
+ }
+ .nana {
+    border: 1px solid;
+    padding: 0.5rem;
+    text-decoration: none;
+    border-radius: 25%;
+    background-color: gray;
+    color: white;
+ }
+ .unga {
+    border: 1px solid;
+    padding: 0.5rem;
+    text-decoration: none;
+    border-radius: 25%;
+    background-color: grey;
+    color: white;
+ }
+ .amma {
+    border: 1px solid;
+    padding: 0.5rem;
+    text-decoration: none;
+    border-radius: 25%;
+    background-color: grey;
+    color: whitesmoke;
+ }
+ .nana:hover {
+box-shadow: 3px 2px 1px black;
+color: azure;
+transform: scale(0.8);
+transition-duration: 1s;
+ }
+ .unga:hover{
+box-shadow: 3px 2px 1px black;
+color: azure;
+transform: scale(0.8);
+transition-duration: 1s;
+ }
+ .amma:hover {
+box-shadow: 3px 2px 1px black;
+color: azure;
+transform: scale(0.8);
+transition-duration: 1s;
+ }
+ .hub {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+ }
+ .bob {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+ }
+  .mob {
+     margin-top: 1rem;
+    margin-bottom: 2rem;
+ }
+ .grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(4,1fr);
+    margin-left: 3rem;
+    gap: 1rem;
+    column-gap: 2rem;
+}
+#section {
+   height: 100vh;
+   padding: 5rem;
+}
+.saii {
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+}
+.pavann{
+    display: flex;
+    align-items: center;
+    gap: 25rem;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+.ppp {
+    position: absolute;
+    width: 40%;
+    background-color: white;
+    height: 0.5rem;
+    margin-top: 3rem;
+    border-radius: 50px;
+}
+.sss {
+   position: absolute;
+    width: 25%;
+    background-color: black;
+    height: 0.5rem;
+    margin-top: 3rem; 
+    border-radius: 50px;
+}
+.balaa{
+    display: flex;
+    align-items: center;
+    gap: 25rem;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+.mmm {
+    position: absolute;
+    width: 40%;
+    background-color: white;
+    height: 0.5rem;
+    margin-top: 3rem;
+    border-radius: 50px;
+}
+.nnn {
+   position: absolute;
+    width: 33%;
+    background-color: black;
+    height: 0.5rem;
+    margin-top: 3rem; 
+    border-radius: 50px;
+}
+.ntrr{
+    display: flex;
+    align-items: center;
+    gap: 25rem;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+.ooo {
+    position: absolute;
+    width: 40%;
+    background-color: white;
+    height: 0.5rem;
+    margin-top: 3rem;
+    border-radius: 50px;
+}
+.iii {
+   position: absolute;
+    width: 30%;
+    background-color: black;
+    height: 0.5rem;
+    margin-top: 3rem; 
+    border-radius: 50px;
+}
+.cbn{
+    display: flex;
+    align-items: center;
+    gap: 25rem;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+.uuu {
+    position: absolute;
+    width: 40%;
+    background-color: white;
+    height: 0.5rem;
+    margin-top: 3rem;
+    border-radius: 50px;
+}
+.yyy {
+   position: absolute;
+    width: 33%;
+    background-color: black;
+    height: 0.5rem;
+    margin-top: 3rem; 
+    border-radius: 50px;
+}
+.lokesh{
+    display: flex;
+    align-items: center;
+    gap: 21.4rem;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+.qqq {
+    position: absolute;
+    width: 40%;
+    background-color: white;
+    height: 0.5rem;
+    margin-top: 3rem;
+    border-radius: 50px;
+}
+.www {
+   position: absolute;
+    width: 20%;
+    background-color: black;
+    height: 0.5rem;
+    margin-top: 3rem; 
+    border-radius: 50px;
+}
+.ravii{
+    display: flex;
+    align-items: center;
+    gap: 25rem;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+.rrr {
+    position: absolute;
+    width: 40%;
+    background-color: white;
+    height: 0.5rem;
+    margin-top: 3rem;
+    border-radius: 50px;
+}
+.ttt {
+   position: absolute;
+    width: 20%;
+    background-color: black;
+    height: 0.5rem;
+    margin-top: 3rem; 
+    border-radius: 50px;
+}
+.ssr {
+    padding-top: 2rem;
+    height: 100vh;
+ }
+.Trivi {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    padding-top: 6rem;
+}
+.puri {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr) 3fr;
+    padding-left: 15rem;
+    padding-right: 15rem; 
+   gap: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.aab {
+    grid-area: 1/1/2/2;
+    border: 1px solid;
+    padding: 0.5rem;
+    color: chocolate;
+    border-radius: 15%;
+    background-color: beige;
+}
+.aac {
+    grid-area: 1/2/2/3;
+    border: 1px solid;
+    padding: 0.5rem;
+    color: chocolate;
+     border-radius: 15%;
+     background-color: beige;
+}
+.aad {
+    grid-area: 2/1/3/2;
+    border: 1px solid;
+    padding: 0.5rem;
+    color: chocolate;
+     border-radius: 15%;
+     background-color: beige;
+}
+.aae {
+    grid-area: 2/2/3/3;
+    border: 1px solid;
+    padding: 0.5rem;
+    color: chocolate;
+     border-radius: 15%;
+     background-color: beige;
+}
+.aaf {
+    grid-area: 3/1/4/3;
+    border: 1px solid;
+    padding: 0.5rem;
+    color: chocolate;
+     border-radius: 15%;
+     background-color: beige;
+}
+.sukku {
+  position: relative;
+  left: 45%;
+  margin-top: 2rem;
+ padding: 0.7%;
+ border-radius: 20%;
+background-image: linear-gradient(to bottom, pink, yellow);
+ color: blueviolet;
+}
+.sukku:hover {
+    transform: scale(0.8);
+}
+.War2 {
+    display: flex;
+    border: 1px solid;
+    justify-content: space-between;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    margin-top: 3rem;
+    background-color: rgba(128, 128, 128, 0.776);
+}
+.scroll-top-button {
+    font-size: 2rem;
+    border: 1px solid;
+    padding: 0.6rem;
+    background-image: linear-gradient(to left, grey, lightblue);
+    z-index: 999;
+}
+.scroll-top-button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.coolie {
+    display: flex;
+    align-items: center;
+}
+html {
+    scroll-behavior: smooth;
+}
+.devara {
+    color: greenyellow;
+}
